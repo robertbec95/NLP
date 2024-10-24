@@ -9,7 +9,7 @@ is compatible with TensorFlow Keras. The -q option is for quiet mode.
 Installs the latest version of the eli5-tf library directly from the GitHub repository in zip format. The -q option is
 for quiet mode. This library provides tools for interpreting machine learning models trained with TensorFlow.
 • !pip3 install -q https://github.com/amaiya/eli5 tf/archive/refs/heads/master.zip
-. Import Libraries and Methods:
+4. Import Libraries and Methods:
 from IPython.core.display import display, HTML import matplotlib.pyplot as plt
 %matplotlib inline
 import seaborn as sns sns.set_palette(sns.color_palette("seismic")) import sys
